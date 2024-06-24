@@ -26,8 +26,8 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Assistant Professor of Financial Economics"
   location         : "Germany"
-  employer         : "Leibniz Institute for Economic Research, Halle (IWH)"
-  uri              : "wbk.ing"
+  employer         : "iwh-halle.de"
+  uri              : # "wbk.ing"
   email            : "f@wbk.ing" 
 
   # Academic websites
