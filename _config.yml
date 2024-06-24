@@ -21,7 +21,7 @@ repository               : "cafawo/cafawo.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile_fwg.png"
   name             : "Fabian Woebbeking"
   pronouns         : # example: "she/her"  
   bio              : "Assistant Professor of Financial Economics"
