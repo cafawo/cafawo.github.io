@@ -25,8 +25,8 @@ author:
   name             : "Fabian Woebbeking"
   pronouns         : # example: "she/her"  
   bio              : "Assistant Professor of Financial Economics"
-  location         : "Germany"
-  employer         : "IWH - Leibniz Institute for Economic Research"
+  location         : # s"Germany"
+  employer         : "iwh-halle.de"
   uri              : "wbk.ing"
   email            : "f@wbk.ing" 
 
