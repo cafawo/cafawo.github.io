@@ -9,4 +9,4 @@ link: https://www.iwh-halle.de/en/publications/detail/let-me-get-back-to-you-a-m
 citation: 'Andreas Barth, Sasan Mansouri, and Fabian Woebbeking (2023). &quot;Let Me Get Back to You&quot; — A Machine Learning Approach to Measuring NonAnswers. <i>Management Science</i>, 69(10).'
 ---
 
-Publication details are available on the [IWH publication page](https://www.iwh-halle.de/en/publications/detail/let-me-get-back-to-you-a-machine-learning-approach-to-measuring-nonanswers).
+Using a supervised machine learning framework on a large training set of questions and answers, we identify 1,364 trigrams that signal nonanswers in earnings call questions and answers (Q&A). We show that this glossary has economic relevance by applying it to contemporaneous stock market reactions after earnings calls. Our findings suggest that obstructing the flow of information leads to significantly lower cumulative abnormal stock returns and higher implied volatility. As both our method and glossary are free of financial context, we believe that the measure is applicable to other fields with a Q&A setup outside the contextual domain of financial earnings conference calls.
