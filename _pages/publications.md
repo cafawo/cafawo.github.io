@@ -21,26 +21,14 @@ in publication front matter to control which section an item appears in.
 
 {% if peer_reviewed.size > 0 %}
   <h2>Peer-Reviewed</h2>
-  {% assign current_year = "" %}
   {% for post in peer_reviewed %}
-    {% assign post_year = post.date | default: "1900-01-01" | date: "%Y" %}
-    {% if post_year != current_year %}
-      <h3>{{ post_year }}</h3>
-      {% assign current_year = post_year %}
-    {% endif %}
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
 
 {% if working_papers.size > 0 %}
   <h2>Working Papers</h2>
-  {% assign current_year = "" %}
   {% for post in working_papers %}
-    {% assign post_year = post.date | default: "1900-01-01" | date: "%Y" %}
-    {% if post_year != current_year %}
-      <h3>{{ post_year }}</h3>
-      {% assign current_year = post_year %}
-    {% endif %}
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
