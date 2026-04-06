@@ -22,8 +22,14 @@ The research group also develops and maintains IWH’s **European Real Estate In
 
 ## Publications
 
-* Barth, Andreas, Sasan Mansouri, and Fabian Woebbeking. "Let Me Get Back to You — A Machine Learning Approach to Measuring Non-Answers." *Management Science* 69, no. 10 (2023): 6333–6348.
-* Packham, Natalie, and Fabian Woebbeking. "Correlation Scenarios and Correlation Stress Testing." *Journal of Economic Behavior & Organization* 205 (2023): 55–67.
-* Woebbeking, Fabian. "Cryptocurrency Volatility Markets." *Digital Finance* 3, no. 3 (2021): 273–298.
-* Packham, Natalie, and C. F. Woebbeking. "A Factor-Model Approach for Correlation Scenarios and Correlation Stress Testing." *Journal of Banking & Finance* 101 (2019): 92–103.
-* Packham, Natalie, Jochen Papenbrock, Peter Schwendner, and Fabian Woebbeking. "Tail-Risk Protection Trading Strategies." *Quantitative Finance* 17, no. 5 (2017): 729–744.
+### Peer-Reviewed Publications
+
+<ul>{% assign peer_reviewed = site.publications | where: "publication_type", "peer_reviewed" | sort: "date" | reverse %}{% for post in peer_reviewed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+
+### Working Papers
+
+<ul>{% assign working_papers = site.publications | where: "publication_type", "working_paper" | sort: "date" | reverse %}{% for post in working_papers %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
