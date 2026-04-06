@@ -22,7 +22,7 @@ The research group also develops and maintains IWH’s **European Real Estate In
 
 ## Publications
 
-### Peer-Reviewed Publications
+### Peer-Reviewed
 
 <ul>{% assign peer_reviewed = site.publications | where: "publication_type", "peer_reviewed" | sort: "date" | reverse %}{% for post in peer_reviewed %}
   {% include archive-single-cv.html %}
