@@ -12,7 +12,7 @@ title                    : "WBK.ING"
 title_separator          : "-"
 name                     : &name "Fabian Woebbeking"
 description              : &description "Assistant Professor of Financial Economics"
-url                      : https://cafawo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://wbk.ing # the deployed site origin; keep aligned with CNAME/custom domain
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "cafawo/cafawo.github.io"
 

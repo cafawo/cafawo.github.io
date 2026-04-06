@@ -10,6 +10,7 @@
 - Prefer editing content in Markdown files and existing collection entries first: `_pages/` for standalone pages, `_publications/`, `_talks/`, `_teaching/`, and `_portfolio/` for archive-driven content, and `_data/navigation.yml` for menu links.
 - For new entries in `_publications/`, always set `publication_type` in front matter. Use `peer_reviewed` for published peer-reviewed work and `working_paper` for working papers. The publications page renders `Peer-Reviewed` first and `Working Papers` second, with newest items first inside each section.
 - Treat `_config.yml`, `CNAME`, `url`, `baseurl`, `repository`, and navigation as site-wide settings with broad impact. Do not change them without explicit user intent, and warn about the blast radius first.
+- If the site uses a custom domain, keep `_config.yml` `url` aligned with `CNAME` and the deployed origin. A mismatch can cause wrong canonical/base URLs and cross-origin asset issues.
 - If `_config.yml` is changed, note that local Jekyll preview typically needs a restart for the change to take effect.
 - Follow the repo's existing conventions in `_config.yml`, `_data/`, `_pages/`, `_publications/`, `_talks/`, `_teaching/`, `_portfolio/`, and `assets/`.
 - If a requested change has possible blast radius beyond the requested scope, state that clearly before proceeding.
