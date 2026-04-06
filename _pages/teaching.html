@@ -7,6 +7,9 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
+<div class="wordwrap">This page lists materials for my current lectures. For a complete record of courses I have taught, please see <a href="{{ base_path }}/cv/">my CV</a>.</div>
+
+{% assign teaching_posts = site.teaching | sort: "title" %}
+{% for post in teaching_posts %}
   {% include archive-single.html %}
 {% endfor %}
