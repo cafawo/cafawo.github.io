@@ -42,7 +42,7 @@ Selected Grants and Awards
 
 Teaching and Seminars
 ======
-  <ul>{% for post in site.teaching reversed %}
+  <ul>{% assign cv_teaching = site.teaching | where_exp: "post", "post.title != 'Bachelor and Master Theses'" %}{% for post in cv_teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}
   <li>Econometrics - Machine Learning (IWH-DPE, Ph.D.)</li>
