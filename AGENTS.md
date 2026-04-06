@@ -8,6 +8,7 @@
 - Stay close to the template's existing patterns and functions. Avoid custom code, custom layouts, new plugins, new build steps, or bespoke JS/CSS unless the user explicitly approves.
 - Any custom solution requires explicit user acceptance before implementation.
 - Prefer editing content in Markdown files and existing collection entries first: `_pages/` for standalone pages, `_publications/`, `_talks/`, `_teaching/`, and `_portfolio/` for archive-driven content, and `_data/navigation.yml` for menu links.
+- On pages like the CV, combining auto-generated collection lists with hard-coded list items is acceptable when needed, but keep the HTML list structure consistent so mixed lists render cleanly.
 - For new entries in `_publications/`, always set `publication_type` in front matter. Use `peer_reviewed` for published peer-reviewed work and `working_paper` for working papers. The publications page renders `Peer-Reviewed` first and `Working Papers` second, with newest items first inside each section.
 - Treat `_config.yml`, `CNAME`, `url`, `baseurl`, `repository`, and navigation as site-wide settings with broad impact. Do not change them without explicit user intent, and warn about the blast radius first.
 - If the site uses a custom domain, keep `_config.yml` `url` aligned with `CNAME` and the deployed origin. A mismatch can cause wrong canonical/base URLs and cross-origin asset issues.
