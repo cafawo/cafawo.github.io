@@ -5,6 +5,7 @@ type: "Thesis guidelines"
 permalink: /teaching/bachelor-and-master-theses
 venue: "GitHub repository"
 paperurl: https://github.com/cafawo/WritingGuidelines
+slidesurl: https://wbk.ing/WritingGuidelines/
 excerpt: "Guidelines for planning, structuring, and writing bachelor and master theses."
 ---
 
