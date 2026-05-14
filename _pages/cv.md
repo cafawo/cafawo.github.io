@@ -29,7 +29,15 @@ Education
 
 Publications
 ======
-  <ul>{% assign publications_sorted = site.publications | sort: "date" | reverse %}{% for post in publications_sorted %}
+Working Papers
+------
+  <ul>{% assign working_papers = site.publications | where: "publication_type", "working_paper" | sort: "date" | reverse %}{% for post in working_papers %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+Peer-Reviewed
+------
+  <ul>{% assign peer_reviewed = site.publications | where: "publication_type", "peer_reviewed" | sort: "date" | reverse %}{% for post in peer_reviewed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
